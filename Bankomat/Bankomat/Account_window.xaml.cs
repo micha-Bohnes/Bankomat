@@ -10,44 +10,31 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Bankomat
 {
     /// <summary>
-    /// Interaktionslogik für MainWindow.xaml
+    /// Interaktionslogik für Account_window.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Account_window : Window
     {
-        public MainWindow()
+        public Account_window()
         {
             InitializeComponent();
-
-
-            
-
-
         }
 
-        private void btnAccountwindow_Click(object sender, RoutedEventArgs e)
+       
+
+
+        private void btnregistrieren_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void btnPaywindow_Click(object sender, RoutedEventArgs e)
+        private void btnanzeige_Click(object sender, RoutedEventArgs e)
         {
 
-        }
-
-        private void btnListwindow_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void btnClose_Click(object sender, RoutedEventArgs e)
-        {
-            
         }
     }
 }

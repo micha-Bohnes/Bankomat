@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Bankomat"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="481.143">
     <Grid>
-        
+        <DataGrid x:Name="dtglist" HorizontalAlignment="Left" Height="174" Margin="10,58,0,0" VerticalAlignment="Top" Width="449"/>
+        <Label x:Name="lblKonten" Content="Konten" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Height="31" Width="449" FontSize="16"/>
+        <Button x:Name="btnPaywindow" Content="Transaktionen" HorizontalAlignment="Left" Margin="10,290,0,0" VerticalAlignment="Top" Width="75" Click="btnPaywindow_Click"/>
+        <Button x:Name="btnAccountwindow" Content="Account" HorizontalAlignment="Left" Margin="10,237,0,0" VerticalAlignment="Top" Width="75" Click="btnAccountwindow_Click"/>
+        <Button x:Name="btnClose" Content="Schliessen" HorizontalAlignment="Left" Margin="10,391,0,0" VerticalAlignment="Top" Width="75" Click="btnClose_Click"/>
+        <Button x:Name="btnListwindow" Content="Verlauf" HorizontalAlignment="Left" Margin="10,343,0,0" VerticalAlignment="Top" Width="75" Click="btnListwindow_Click"/>
+
     </Grid>
 </Window>
