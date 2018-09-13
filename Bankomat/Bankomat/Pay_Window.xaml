@@ -1,0 +1,22 @@
+﻿<Window x:Class="Bankomat.Paywindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bankomat"
+        mc:Ignorable="d"
+        Title="Paywindow" Height="393.307" Width="272.047">
+    <Grid>
+        <DataGrid x:Name="dtgsaldo" HorizontalAlignment="Left" Height="54" Margin="10,10,0,0" VerticalAlignment="Top" Width="230"/>
+        <Label x:Name="lblsaldo" Content="Bitte hier konto nummer eingeben" HorizontalAlignment="Left" Margin="10,69,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbsaldo" HorizontalAlignment="Left" Height="23" Margin="10,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="123"/>
+        <Button x:Name="btnsaldo" Content="Saldo" HorizontalAlignment="Left" Margin="138,100,0,0" VerticalAlignment="Top" Width="64" Height="23" Click="btnsaldo_Click"/>
+        <TextBox x:Name="tbpayin" HorizontalAlignment="Left" Height="23" Margin="10,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="123"/>
+        <Label x:Name="lblpayin" Content="bitte den Betrag der Einzahlung eingeben" HorizontalAlignment="Left" Margin="10,153,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnpayin" Content="Einzahlen" HorizontalAlignment="Left" Margin="138,184,0,0" VerticalAlignment="Top" Width="64" Height="23" Click="btnpayin_Click"/>
+        <Label x:Name="lblpayout" Content="bitte den Betrag der Zahlung eingeben" HorizontalAlignment="Left" Margin="10,247,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbpayout" HorizontalAlignment="Left" Height="23" Margin="10,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="123"/>
+        <Button x:Name="btnpayout" Content="Zahlen" HorizontalAlignment="Left" Margin="138,278,0,0" VerticalAlignment="Top" Width="64" Height="23" Click="btnpayout_Click"/>
+
+    </Grid>
+</Window>
