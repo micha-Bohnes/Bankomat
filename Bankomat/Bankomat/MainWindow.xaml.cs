@@ -24,10 +24,7 @@ namespace Bankomat
         {
             InitializeComponent();
 
-
             
-
-
         }
 
         private void btnAccountwindow_Click(object sender, RoutedEventArgs e)
