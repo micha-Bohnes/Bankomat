@@ -7,7 +7,12 @@
         mc:Ignorable="d"
         Title="Account_window" Height="466.24" Width="364.173">
     <Grid>
-        <DataGrid x:Name="dtganzeige" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="298"/>
+        <DataGrid x:Name="dtganzeige" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="338" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Name"/>
+                <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Kontonummer"/>
+            </DataGrid.Columns>
+        </DataGrid>
         <Label x:Name="lbleingabe" Content="Bitte Name und Nummer des Kontos eingeben." HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top" Width="298"/>
         <Label Content="Falls sie noch kein Konto besitzen,&#xD;&#xA;können sie weiter unten sich registrieren" HorizontalAlignment="Left" Margin="10,243,0,0" VerticalAlignment="Top" Height="51" Width="298"/>
         <TextBox x:Name="tbNumber" HorizontalAlignment="Left" Height="23" Margin="10,316,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
@@ -18,7 +23,7 @@
         <TextBox x:Name="tbNumber1" HorizontalAlignment="Left" Height="23" Margin="10,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="btnname1" HorizontalAlignment="Left" Height="23" Margin="10,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="lblnumber1" Content="Hier ihre Konto nummer eingeben" HorizontalAlignment="Left" Margin="153,147,0,0" VerticalAlignment="Top" Height="39"/>
-        <Label x:Name="lblname1" Content="Hier irhen Namen eingeben" HorizontalAlignment="Left" Margin="153,191,0,0" VerticalAlignment="Top" Height="47"/>
+        <Label x:Name="lblname1" Content="Hier ihren Namen eingeben" HorizontalAlignment="Left" Margin="153,191,0,0" VerticalAlignment="Top" Height="47"/>
         <Button x:Name="btnanzeige" Content="Anzeigen" HorizontalAlignment="Left" Margin="10,219,0,0" VerticalAlignment="Top" Width="120" Click="btnanzeige_Click"/>
 
     </Grid>
